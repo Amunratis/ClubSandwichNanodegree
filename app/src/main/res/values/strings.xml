@@ -12,6 +12,9 @@
 
     <!-- Error messages-->
     <string name="detail_error_message">Sandwich data not available</string>
+    <string name="AKA">AKA</string>
+    <string name="PlaceOfOrigin">Place of Origin</string>
+    <string name="Ingredients">Ingredients</string>
 
     <string-array name="sandwich_names">
         <item>Ham and cheese sandwich</item>
