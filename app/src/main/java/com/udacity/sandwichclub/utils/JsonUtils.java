@@ -38,6 +38,12 @@ public class JsonUtils {
             JSONArray jsonArrayNames=sandwichName.getJSONArray("alsoKnownAs");
 
             alsoKnownAs.add(jsonArrayNames.join(" "));
+
+
+            for(int i=0;i<alsoKnownAs.size();i++){
+                alsoKnownAs.set(i,alsoKnownAs.get(i).replace("\"", ""));
+            }
+
             sandwich.setAlsoKnownAs(alsoKnownAs);
 
             placeOfOrigin=baseJsonResponse.optString("placeOfOrigin");
@@ -52,6 +58,10 @@ public class JsonUtils {
             JSONArray jsonArrayIngredients=baseJsonResponse.getJSONArray("ingredients");
 
             ingredients.add(jsonArrayIngredients.join(","));
+
+            for(int i=0;i<ingredients.size();i++){
+                ingredients.set(i,ingredients.get(i).replace("\"", ""));
+            }
 
             sandwich.setIngredients(ingredients);
 
