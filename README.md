@@ -1,6 +1,6 @@
 # Sandwich Club Project
 
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://youtu.be/sE4QX4GMIDA)
+[![Watch the video](https://i.ytimg.com/vi/sE4QX4GMIDA/hqdefault.jpg)](https://youtu.be/sE4QX4GMIDA)
 
 ## Project Overview
 This project  app 
